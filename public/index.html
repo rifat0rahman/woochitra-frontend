@@ -1,17 +1,202 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+
+<head>
+  <!-- for boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/animate.css">
+  <!-- this is for ajax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" rel="stylesheet" type="text/css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- default scripts -->
+  <!--  -->
+  <!-- google analytics -->
+  <script>
+    var script = document.createElement("script");
+    script.id = "wphs";
+    script.src = "https://cdn.jsdelivr.net/npm/hockeystack@latest/hockeystack.min.js";
+    script.async = 1;
+    script.dataset.apikey = "8680e917392f4bcb7f989c42251892";
+    script.dataset.cookieless = 1;
+    document.getElementsByTagName('head')[0].appendChild(script);
+ </script>
+ 
+  <!-- ends -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel='icon' href="<%= BASE_URL %>favicon.ico">
+  <title>
+    Picengine
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<!-- for compress -->
+<script src="compressors/file-saver.js"></script>
+<script src="compressors/jszip.min.js"></script>
+<script  src="compressors/compressmin.js"></script>
+<!-- for format -->
+<script src="format/canvas2svg.js"></script>
+<script src="format/formatmin.js"></script>
+<!-- for resizing -->
+<script src="resize/resizen.js"></script>
+<!-- seo -->
+<script src="seo/piexif.js"></script>
+<script src="seo/converter.js"></script>
+<!-- booststrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </html>
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  body {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  /* boostrap */
+  .mb-3 {
+    margin-bottom: 1rem !important;
+    border: 1px solid rgb(228, 228, 228) !important;
+    border-radius: 25px !important;
+    height: 45px;
+    width: 107%;
+    box-shadow: 1px 1px 1px rgb(235, 235, 235);
+  }
+</style>
+
+<script>
+  let loc = {};
+  var map = L.map("map", {
+    center: [40.7259, -73.9805], // Map loads with this location as center
+    zoom: 12,
+    scrollWheelZoom: true,
+    zoomControl: false,
+    attributionControl: false,
+  });
+
+
+
+  var searchBoxControl = document.getElementById("search-box");
+
+
+  function degToDmsRational(degFloat) {
+    var minFloat = (degFloat % 1) * 60;
+    var secFloat = (minFloat % 1) * 60;
+    var deg = Math.floor(degFloat);
+    var min = Math.floor(minFloat);
+    var sec = Math.round(secFloat * 100);
+
+    deg = Math.abs(deg) * 1;
+    min = Math.abs(min) * 1;
+    sec = Math.abs(sec) * 1;
+
+    return [
+      [deg, 1],
+      [min, 1],
+      [sec, 100],
+    ];
+  }
+
+  function handleFileSelect(evt) {
+    document.getElementById("update").addEventListener("click", () => {
+      var file = evt.target.files[0];
+
+      var zeroth = {};
+      var exif = {};
+      var gps = {};
+      zeroth[piexif.ImageIFD.Artist] = document.getElementById(
+        "authorname"
+      ).value;
+      // zeroth[piexif.ImageIFD.XPKeywords] = giveasciinum();
+      zeroth[piexif.ImageIFD.ImageDescription] = document.getElementById(
+        "subject"
+      ).value;
+      exif[piexif.ExifIFD.UserComment] = document.getElementById(
+        "comments"
+      ).value;
+      zeroth[piexif.ImageIFD.XResolution] = [777, 1];
+      zeroth[piexif.ImageIFD.YResolution] = [777, 1];
+      zeroth[piexif.ImageIFD.Software] = document.getElementById(
+        "sofname"
+      ).value;
+      zeroth[piexif.ImageIFD.Copyright] = document.getElementById(
+        "copyright"
+      ).value;
+      exif[piexif.ExifIFD.LensMake] = "LensMake";
+      exif[piexif.ExifIFD.Sharpness] = 777;
+      exif[piexif.ExifIFD.LensSpecification] = [
+        [1, 1],
+        [1, 1],
+        [1, 1],
+        [1, 1],
+      ];
+
+      gps[piexif.GPSIFD.GPSLatitude] = degToDmsRational(loc.lat);
+      gps[piexif.GPSIFD.GPSLatitudeRef] = "N";
+      gps[piexif.GPSIFD.GPSLongitude] = degToDmsRational(loc.long);
+      gps[piexif.GPSIFD.GPSLongitudeRef] = "W";
+      var exifObj = { "0th": zeroth, Exif: exif, GPS: gps };
+      var exifStr = piexif.dump(exifObj);
+
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        if (file.type == "image/jpeg" || file.type == "image/jpg") {
+          var inserted = piexif.insert(exifStr, e.target.result);
+          var image = new Image();
+          image.src = inserted;
+          image.width = 200;
+          var el = document.createElement("div").append(image);
+          //("#resized").prepend(el);
+          var link = document.createElement("a");
+          link.download = document.getElementById("name").value + ".jpg";
+          link.href = image.src;
+          link.click();
+        } else {
+          var inserted = piexif.insert(exifStr, document.getElementById("base64Data").value);
+          setTimeout(function () {
+            var image = new Image();
+            image.src = inserted;
+            image.width = 200;
+            var el = document.createElement("div").append(image);
+            //("#resized").prepend(el);
+            var link = document.createElement("a");
+            if (file.type == "image/webp") {
+              link.download = document.getElementById("name").value + ".webp";
+            } else {
+              link.download = document.getElementById("name").value + ".png";
+            }
+            link.href = image.src;
+            link.click();
+          }, 1000);
+        }
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  document
+    .getElementById("files")
+    .addEventListener("change", handleFileSelect, false);
+</script>

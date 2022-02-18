@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="containers">
+      <div class="dash">
+        <router-view />
+      </div>
+    </div>
+    <footerVue class="footer"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import axios from 'axios'
+import footerVue from './components/footer.vue'
+import { base } from './main'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // compressVue,
+    // formatVue,
+    // resizeVue,
+   footerVue,
+    
+  },
+  mounted(){
+    const context = {
+      "token": this.$cookies.get("token")
+    }
+      axios.post(`${base}check_validation`,context)
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
