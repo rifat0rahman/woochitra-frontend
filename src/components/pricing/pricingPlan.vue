@@ -10,10 +10,10 @@
       </div>
       <div class="price-container">
         <div class="cols">
-          <b class="header-text">Basic Plan</b>
+          <b class="header-text">Solo Plan</b>
           <p>Perfect for starting with us!</p>
           <div class="price">
-            <b>$9.99/m</b>
+            <b>$6.99/m</b>
           </div>
           <div class="numprocess">
             <span>Image Optimisation</span><br />
@@ -24,14 +24,15 @@
             <p></p>
           </div>
           <div class="button">
-            <a :href="base + '1/landing'" v-show="button_icon">Select Plan</a>
+            <a :href="base + '28oaFD2L9fdgcH628h'" v-show="button_icon">Select Plan</a>
           </div>
         </div>
+
         <div class="cols">
-          <b class="header-text">Standard Plan</b>
+          <b class="header-text">Freelancer Plan</b>
           <p>Always like the Standard!</p>
           <div class="price">
-            <b>$19.99/m</b>
+            <b>$16.99/m</b>
           </div>
           <div class="numprocess">
             <span>Image Optimisation</span><br />
@@ -42,14 +43,15 @@
             <p></p>
           </div>
           <div class="button">
-            <a :href="base + '2/landing'" v-show="button_icon">Select Plan</a>
+            <a :href="base + 'dR69Bz71p7KO7mM28g'" v-show="button_icon">Select Plan</a>
           </div>
         </div>
+
         <div class="cols">
-          <b class="header-text">Premium Plan</b>
+          <b class="header-text">Studio Plan</b>
           <p>Make your self comfortable!</p>
           <div class="price">
-            <b>$29.99/m</b>
+            <b>$46.99/m</b>
           </div>
           <div class="numprocess">
             <span>Image Optimisation</span><br />
@@ -60,14 +62,14 @@
             <p></p>
           </div>
           <div class="button">
-            <a :href="base + '3/landing'" v-show="button_icon">Select Plan</a>
+            <a :href="base + '28o8xvgBZ2qubD26ov'" v-show="button_icon">Select Plan</a>
           </div>
         </div>
         <div class="cols">
-          <b class="header-text">Custom Plan</b>
+          <b class="header-text">Agency Plan</b>
           <p>Make plans as per your requirements</p>
           <div class="price">
-            <b>$- -/m</b>
+            <b>$96.99/m</b>
           </div>
           <div class="numprocess">
             <span>Image Optimisation</span><br />
@@ -78,7 +80,7 @@
             <p></p>
           </div>
           <div class="button">
-            <a href="/custom-plan" v-show="button_icon">Custom Plan</a>
+            <a :href="base + 'dR69Bz2L97KO22s4gm'" v-show="button_icon">Custom Plan</a>
           </div>
         </div>
       </div>
@@ -90,7 +92,6 @@
 </template>
 
 <script>
-import { base } from "../../main";
 import NavBarVue from "../NavBar.vue";
 
 export default {
@@ -99,7 +100,7 @@ export default {
   },
   data() {
     return {
-      base: base,
+      base: 'https://buy.stripe.com/',
       error: null,
       button_icon: true,
     };

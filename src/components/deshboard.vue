@@ -34,7 +34,6 @@ import sidebarVue from "./DeshboardCont/sidebar.vue";
 export default {
   components: {
     deshitemsVue,
-    // containerVue,
     sidebarVue,
     profileVue,
   },

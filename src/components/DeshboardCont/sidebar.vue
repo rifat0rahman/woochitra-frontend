@@ -25,15 +25,11 @@
           </li>
           <li>
             <a href="/image-optimizations" class="nav-link text-white"> 
-            <i class="fas fa-compress-arrows-alt"></i><span class="icon-t">Optimization</span> </a>
+            <i class="fas fa-compress-arrows-alt"></i><span class="icon-t">Create</span> </a>
           </li>
           <li>
             <a href="/image-resizing" class="nav-link text-white"> 
-            <i class="fas fa-crop"></i><span class="icon-t">Resizing</span> </a>
-          </li>
-          <li>
-            <a href="/metadata" class="nav-link text-white"> 
-            <i class="fas fa-ribbon"></i><span class="icon-t">Metadata</span> </a>
+            <i class="fas fa-crop"></i><span class="icon-t">Tokens</span> </a>
           </li>
           <li>
             <router-link to="/setting" class="nav-link text-white">

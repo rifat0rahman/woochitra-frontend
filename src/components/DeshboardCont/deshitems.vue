@@ -11,15 +11,15 @@
       </div>
       <div class="col2">
         <img src="../../images/package.png" alt="" /><br />
-        <b>Image Optimization</b>
-        <h4 v-if="accounttype == null">{{ status.basic_image_count }}/{{ status.basic_image_count + status.basic_credits }} </h4>
+        <b>Token Remains</b>
+        <h4 v-if="accounttype == null">{{ status.token_credits }} </h4>
         <h1 class="display-1" v-else>∞</h1>
       </div>
       <div class="col3">
         <img src="../../images/high-quality.png" alt="" /><br />
-        <b>Metadata Updater</b>
-        <h4 v-if="accounttype == null">{{ status.premium_image_count }}/{{ status.premium_image_count + status.premium_credits }}</h4>
-        <h1 class="display-1" v-else>∞</h1>
+        <b v-show="status.status == 'licensed'">Type</b><br>
+        <b v-if="status.status == 'licensed'"> Licensed </b>
+        <b class="display-1" v-else>Not licensed </b>
       </div>
     </div>
   </div>

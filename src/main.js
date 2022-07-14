@@ -2,8 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
-export const base = 'https://app.picengine.io/'
-// export const base = 'http://127.0.0.1:8000/'
+// export const base = 'https://app.picengine.io/'
+export const base = 'http://127.0.0.1:8000/'
 
 
 Vue.config.productionTip = false
