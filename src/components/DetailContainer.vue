@@ -1,20 +1,21 @@
 <template>
   <div class="top">
     <NavBarVue />
-      <PageExVue/>
-      <PageDetailVue/>
+      <HomeSoftwareVue/>
   </div>
 </template>
 
 <script>
-import PageDetailVue from './PageDetail.vue'
-import PageExVue from './PageEx.vue'
+// import PageDetailVue from './PageDetail.vue'
+// import PageExVue from './PageEx.vue'
 import NavBarVue from './NavBar.vue'
+import HomeSoftwareVue from '../pages/HomeSoftware.vue'
 export default {
     components:{
-        PageDetailVue,
-        PageExVue,
+        // PageDetailVue,
+        // PageExVue,
         NavBarVue,
+        HomeSoftwareVue
     }
 }
 </script>

@@ -172,8 +172,8 @@ export default {
   font-weight: 600 !important;
   letter-spacing: 0;
   line-height: 17px;
-  color: rgb(34, 34, 34);
-  padding-left: 41px;
+  color: rgb(30, 30, 30) !important;
+  padding-left: 41px !important;
 }
 .navbar-nav .nav-link:hover {
   color: #ec850a !important;
