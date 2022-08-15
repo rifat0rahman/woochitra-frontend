@@ -7,13 +7,13 @@
       <div class="col1">
         <img src="../../images/gears.png" alt="" /><br />
         <b>Your Plan</b>
-        <h4>{{ status.account_type }}</h4>
+        <h4 style="color:black;font-size:30px;">{{ status.account_type }}</h4>
       </div>
       <div class="col2">
         <img src="../../images/package.png" alt="" /><br />
         <b>Token Remains</b>
-        <h4 v-if="accounttype == null">{{ status.token_credits }} </h4>
-        <h1 class="display-1" v-else>∞</h1>
+        <h4 v-if="accounttype == null" style="color:black;font-size:30px;">{{ status.token_credits }} </h4>
+        <h1 class="display-1" style="color:black;font-size:30px;" v-else>∞</h1>
       </div>
       <div class="col3">
         <img src="../../images/high-quality.png" alt="" /><br />
@@ -67,6 +67,10 @@ export default {
     margin-bottom: 50px !important;
   }
   
+}
+h1,h2,h3,h4{
+  color: rgb(18, 17, 17) !important;
+  font-size: 30px;
 }
 
 .current h2{

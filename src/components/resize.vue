@@ -60,6 +60,10 @@ export default {
     margin: auto;
   }
 }
+h1,h2,h3,h4{
+  color: rgb(18, 17, 17) !important;
+  font-size: 30px;
+}
 @media screen and (max-width: 600px) {
   .edit-profile {
     width: 100% !important;

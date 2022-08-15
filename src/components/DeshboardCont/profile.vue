@@ -70,6 +70,11 @@ export default {
   }
 }
 
+h1,h2,h3,h4{
+  color: rgb(18, 17, 17) !important;
+  font-size: 30px;
+}
+
 @media screen and (max-width: 460px) {
   .profile-container {
     width: 100% !important;

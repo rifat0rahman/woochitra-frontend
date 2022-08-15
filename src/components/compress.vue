@@ -79,7 +79,10 @@ export default {
     margin-bottom: 10px !important;
   }
 }
-
+h1,h2,h3,h4{
+  color: rgb(18, 17, 17) !important;
+  font-size: 30px;
+}
 label {
   margin-left: 30px;
 }

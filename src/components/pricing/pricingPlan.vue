@@ -3,8 +3,8 @@
     <NavBarVue />
     <div>
       <div class="top">
-        <b> A pricing plan that grows with your business </b>
-        <h4>
+        <b style="color:black"> A pricing plan that grows with your business </b>
+        <h4 style="color:black">
           Each plan is customized to fit the size and needs of your business.
         </h4>
       </div>
