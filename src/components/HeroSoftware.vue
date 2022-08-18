@@ -7,9 +7,9 @@
                         <div class="hero-item">
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Turn products into stories.</h2>
-                                <h6 class="hero-content-subtitle">Easiest way to add videos to your WooCommerce product pages.</h6>
+                                <h6 class="hero-content-subtitle">Add videos to your WooCommerce product gallery and see your engagement skyrocket!</h6>
                                 <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
+                                    <span class="btn-icon  ml-0 mr-2"></span> Get WooChitra
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
@@ -20,28 +20,30 @@
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Boost Your Sales with Videos</h2>
-                                <h6 class="hero-content-subtitle">According to 80% of video marketers, video directly increases sales.</h6>
+                                <h2 class="h1 hero-content-title">Easily add videos with WooChitra</h2>
+                                <h6 class="hero-content-subtitle">
+                                    You have a WooCommerce-powered store with no video on the product page. You're missing out on 60% of sales
+                                </h6>
                                 <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
+                                    <span class="btn-icon  ml-0 mr-2"></span> Get WooChitra
                                 </router-link>
                             </div>
-                            <div class="hero-thumb">
-                                <img src="../assets/img/hero/hero-software/software-thumb-2.png" class="img-fluid" alt="hero thumb">
+                            <div class="hero-thumb pr-100">
+                                <img src="../assets/img/hero/hero-software/software-thumb-3.png" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide" :style="bgImg">
                         <div class="hero-item">
                             <div class="hero-content">
-                                <h2 class="h1 hero-content-title">Your business deserves better software</h2>
-                                <h6 class="hero-content-subtitle">No coding skills required to create unique sites.</h6>
+                                <h2 class="h1 hero-content-title">Boost Your Sales with Videos</h2>
+                                <h6 class="hero-content-subtitle">According to 80% of video marketers, video directly increases sales.</h6>
                                 <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
+                                    <span class="btn-icon  ml-0 mr-2"></span> Get WooChitra
                                 </router-link>
                             </div>
-                            <div class="hero-thumb pr-100">
-                                <img src="../assets/img/hero/hero-software/software-thumb-3.png" class="img-fluid" alt="hero thumb">
+                            <div class="hero-thumb">
+                                <img src="../assets/img/hero/hero-software/software-thumb-2.png" class="img-fluid" alt="hero thumb">
                             </div>
                         </div>
                     </div>

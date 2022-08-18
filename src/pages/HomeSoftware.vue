@@ -43,7 +43,7 @@
         <TabTwo BgGradient="bg-gradient" id="service" />
 
         <!-- fun facts section -->
-		<div class="fun-fact-wrapper section-space--pt_60 section-space--pb_60">
+		<!-- <div class="fun-fact-wrapper section-space--pt_60 section-space--pb_60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -53,10 +53,9 @@
                         </div>
                     </div>
                 </div>
-				<!-- fun fact component -->
 				<FunFactOne />
             </div>
-		</div>
+		</div> -->
 
         <!-- pricing section -->
         <CurveShape>
@@ -150,12 +149,12 @@
 	import HeroSoftware from "../components/HeroSoftware";
 	// import BrandLogoCarousel from "../components/BrandLogoCarousel";
 	import FeatureList from "../components/FeatureList";
-	import TabTwo from "../components/TabTwo";
+	// import TabTwo from "../components/TabTwo";
 	// import ProgressBar from "../components/ProgressBar";
 	// import PricingOne from "../components/PricingOne";
 	import CurveShape from "../components/CurveShape";
 	// import CtaThree from "../components/CtaThree";
-	import FunFactOne from "../components/FunFactOne";
+	// import FunFactOne from "../components/FunFactOne";
 	import Accordion from "../components/Accordion";
 	// import Newsletter from "../components/Newsletter";
 	// import FooterMain from "../components/FooterMain";
@@ -170,12 +169,12 @@
 			HeroSoftware,
             // BrandLogoCarousel,
             FeatureList,
-            TabTwo,
+            // TabTwo,
             // ProgressBar,
             // PricingOne,
 			CurveShape,
 			// CtaThree,
-            FunFactOne,
+            // FunFactOne,
             Accordion,
             // Newsletter,
             // FooterMain,
@@ -183,7 +182,7 @@
 		},
 
         metaInfo: {
-            title: 'Aeroland - Home Software',
+            title: 'WooChitra - Add videos to WooCommerce products',
             htmlAttrs: {
                 lang: 'en',
                 amp: true
