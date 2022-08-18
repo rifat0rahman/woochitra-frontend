@@ -11,7 +11,7 @@
 
 <script>
 import axios from 'axios'
-import footerVue from './components/footer.vue'
+import footerVue from './components/mine/footer.vue'
 import { base } from './main'
 
 export default {

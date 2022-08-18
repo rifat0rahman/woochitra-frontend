@@ -4,7 +4,7 @@
     <div class="reg-container">
       <div class="register">
         <div class="header-text">
-          <b>Login to Picengine</b>
+          <b>Login to WooChitra</b>
         </div>
         <div>
           <form @submit.prevent="login">
@@ -13,7 +13,7 @@
             <input
               type="email"
               name="email"
-              placeholder="piceengine@gmail.com"
+              placeholder="woochitra@gmail.com"
               v-model="userInfo.email"
             /><br />
             <a href="/forget-email" class="forgot">forgot password</a><br>
@@ -39,7 +39,7 @@
 import axios from "axios";
 
 import { base } from "../../main";
-import NavBarVue from '../NavBar.vue';
+import NavBarVue from "../mine/NavBar.vue";
 
 export default {
   components: {
@@ -139,7 +139,7 @@ input:focus {
 }
 input[type="submit"] {
   margin-top: 20px !important;
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   font-size: 18px;
   color: white;
   margin-bottom: 20px !important;
@@ -147,7 +147,7 @@ input[type="submit"] {
 .register input {
   width: 100%;
   height: 45px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(218, 163, 255);
   border-radius: 25px;
   margin: 7px;
   -webkit-box-shadow: 0 0 5px 1px rgb(228, 228, 228);

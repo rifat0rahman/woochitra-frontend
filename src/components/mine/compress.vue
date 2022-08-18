@@ -7,23 +7,28 @@
           <div class="edit-header">
             <h2>Create Token</h2>
           </div>
-          <p class="text-center">{{ token }}</p>
+          <p class="text-center mt-3 mb-4">{{ token }}</p>
           <form @submit.prevent="create_token">
-            <div class="info-fileds">
-              <input type="submit" value="New Token +" />
+            <div class="info-fileds text-center">
+              <button class="button">
+                  Create Token
+              </button>
             </div>
           </form>
           <p class="error">{{ license_error }}</p>
         </div>
 
         <!-- email changer -->
+        <div class="text-center">
+           <strong>Check all your token <a style="color:rgb(139 55 248)" href="/image-resizing"><i>here</i></a> </strong>
+        </div>
     </div>
   </div>
 </template>
 
 <script>
 import axios from "axios";
-import { base } from "../main";
+import { base } from "../../main";
 
 export default {
   data() {
@@ -79,6 +84,20 @@ export default {
     margin-bottom: 10px !important;
   }
 }
+.button {
+  margin-top: 13vh;
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
+  color: white;
+  padding:11px;
+  font-size: 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size:18px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 h1,h2,h3,h4{
   color: rgb(18, 17, 17) !important;
   font-size: 30px;
@@ -108,11 +127,8 @@ label {
 input:focus {
   outline: 0;
 }
-.info-fileds input[value="Change password"] {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
-}
 .info-fileds input[type="submit"] {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   color: white;
   font-size:18px;
 }

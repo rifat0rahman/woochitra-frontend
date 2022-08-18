@@ -14,9 +14,9 @@
             We build software as a web service that people (our “Clients”) can
             use to resize, optimize and serve their . Clients, in turn, make
             their images available to their customers (“End Users”). Satak
-            Support (“PicEngine”, “we” or “us”) offers various services to you,
+            Support (“WooChita”, “we” or “us”) offers various services to you,
             our Client and your End Users, through our website
-            (www.picengine.io), all of which are conditioned on your agreement
+            (www.woochita.com), all of which are conditioned on your agreement
             to adhere to the following Terms of Service without modification of
             any kind. Your use of the Service and/or your registration with us
             constitutes your agreement to these Terms of Service. These Terms of
@@ -34,7 +34,7 @@
         </div>
         <div class="content">
           <p>
-            We collect data from the users of our service. picengine.io does not
+            We collect data from the users of our service. WooChita.io does not
             interact with End Users on your website. You affirm that you are
             either more than 18 years of age, or an emancipated minor, or
             possess legal parental or guardian consent, and are fully able and
@@ -56,17 +56,17 @@
         <div class="content">
           <p>
             “CDN” means Content Delivery Network and refers to a supplier of
-            picengine.io “Origin Image” means the image You want to transform
+            WooChita.io “Origin Image” means the image You want to transform
             with the Services prior to Transformation as provided by you.
             “Cached Image” means a copy of the Origin Image as well as the
-            Transformed Images temporarily stored on picengine.io servers.
+            Transformed Images temporarily stored on WooChita.io servers.
             “Transformation” means the image processing operation from
-            picengine.io, including but not limited to resizing, cropping,
+            WooChita.io, including but not limited to resizing, cropping,
             watermarking and quality alteration applied to the Origin Image.
             “Transformed Image” means the image after application of the
-            Transformation supported by picengine.io. “Image Server” means a
+            Transformation supported by WooChita.io. “Image Server” means a
             server maintained by us responsible for the Transformation. “User
-            Content” means the (image) material You provide to picengine.io for
+            Content” means the (image) material You provide to WooChita.io for
             Caching, applying Transformations and delivering over a CDN.
             “Consumer” means the end user to whom Transformed Image(s) are
             delivered to.
@@ -84,12 +84,12 @@
             By registering and participating in this Service as a Client, you
             agree and represent as follows: 1. You are of legal age and are
             otherwise capable of forming a legally binding contract; 2. All
-            information you submit to picengine.io or in connection with our
+            information you submit to WooChita.io or in connection with our
             Service is accurate and complete and that you will maintain and
             promptly update any profile supplied to us to ensure accuracy at all
             times; 3. You agree to be contacted via Email, SMS or live chat by
-            picengine.io, and third parties if relevant, regarding PicEngine
-            services; 4. You hereby grant picengine.io permission to email or
+            WooChita.io, and third parties if relevant, regarding WooChita
+            services; 4. You hereby grant WooChita.io permission to email or
             display your profile and such other information as may be supplied
             by you to us on or from our website as we shall deem advisable in
             our sole determination in connection with the Service or for
@@ -117,7 +117,7 @@
         </div>
         <div class="content">
           <p>
-            picengine.io respects the rights of third party creators and content
+            WooChita.io respects the rights of third party creators and content
             owners and expects that you will do the same. Given the nature of
             the Service and the volume of information submitted, we cannot and
             do not monitor all of the Materials posted or transmitted by you and
@@ -189,7 +189,7 @@
             As a part of our Service, we may offer links to websites operated by
             various third parties and are not responsible or liable for any acts
             or omissions created or performed by these third parties. We provide
-            such links for your convenience and reference only. picengine.io
+            such links for your convenience and reference only. WooChita.io
             does not operate or control in any way any information, software,
             products or services available on such websites. Our inclusion of a
             link to a website does not imply any endorsement of the services or
@@ -216,7 +216,7 @@
             Service shall not violate any applicable law or regulation or cause
             injury to any person; (e) your use of the Service shall not violate
             any agreements between you and a third party. You agree to
-            indemnify, defend and hold harmless picengine.io, and its officers,
+            indemnify, defend and hold harmless WooChita.io, and its officers,
             directors, employees, agents, and contractors from and against any
             and all claims, costs, demands, damages, liabilities, or expenses,
             including, without limitation, reasonable attorneys’ fees, arising
@@ -233,38 +233,38 @@
         </div>
         <div class="content">
           <p>
-            picengine.io intends that the information contained in its Service
+            WooChita.io intends that the information contained in its Service
             be accurate and reliable; however, errors sometimes occur. In
-            addition, picengine.io may make changes and improvements to the
+            addition, WooChita.io may make changes and improvements to the
             information provided herein at any time. THE SERVICE AND THE
             INFORMATION, SOFTWARE, PRODUCTS AND SERVICES ASSOCIATED WITH IT ARE
-            PROVIDED “AS IS.” picengine.io AND/OR ITS SUPPLIERS, PARTNERS AND
+            PROVIDED “AS IS.” WooChita.io AND/OR ITS SUPPLIERS, PARTNERS AND
             AFFILIATES DISCLAIM ANY WARRANTY OF ANY KIND, WHETHER EXPRESS OR
             IMPLIED, AS TO ANY MATTER WHATSOEVER RELATING TO THE SERVICE AND ANY
             INFORMATION, SOFTWARE, PRODUCTS AND SERVICES PROVIDED HEREIN,
             INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF
             MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON
-            INFRINGEMENT. USE OF picengine.io’ SERVICE IS AT YOUR OWN RISK.
-            picengine.io AND/OR ITS SUPPLIERS, ARE NOT LIABLE FOR ANY DIRECT,
+            INFRINGEMENT. USE OF WooChita.io’ SERVICE IS AT YOUR OWN RISK.
+            WooChita.io AND/OR ITS SUPPLIERS, ARE NOT LIABLE FOR ANY DIRECT,
             INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OR
             OTHER INJURY ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OF
-            picengine.io WEBSITE OR SERVICE OR WITH THE DELAY OR INABILITY TO
+            WooChita.io WEBSITE OR SERVICE OR WITH THE DELAY OR INABILITY TO
             USE THE SERVICE, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS AND
-            SERVICES OBTAINED THROUGH picengine.io, OR OTHERWISE ARISING OUT OF
+            SERVICES OBTAINED THROUGH WooChita.io, OR OTHERWISE ARISING OUT OF
             THE USE OF THE SERVICE, WHETHER RESULTING IN WHOLE OR IN PART, FROM
             BREACH OF CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN
-            IF picengine.io AND/OR ITS SUPPLIERS HAD BEEN ADVISED OF THE
+            IF WooChita.io AND/OR ITS SUPPLIERS HAD BEEN ADVISED OF THE
             POSSIBILITY OF DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE
             EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT
-            APPLY TO YOU. LIMITATION OF LIABILITY IN NO EVENT SHALL picengine.io
+            APPLY TO YOU. LIMITATION OF LIABILITY IN NO EVENT SHALL WooChita.io
             OR ITS SUPPLIERS BE LIABLE FOR LOST PROFITS OR ANY SPECIAL,
             INCIDENTAL OR CONSEQUENTIAL DAMAGES (HOWEVER ARISING, INCLUDING
             NEGLIGENCE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT.
-            picengine.io LIABILITY, AND THE LIABILITY OF picengine.io SUPPLIERS
+            WooChita.io LIABILITY, AND THE LIABILITY OF WooChita.io SUPPLIERS
             AND AFFILIATES, TO YOU OR ANY THIRD PARTIES IN ANY CIRCUMSTANCE,
             SHALL NOT EXCEED THE TOTAL SUM OF $100.00. THE LIMITATIONS OF
             LIABILITY SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE CONTRACT
-            BETWEEN picengine.io AND YOU. Some states do not allow the
+            BETWEEN WooChita.io AND YOU. Some states do not allow the
             limitation of liability, so the foregoing limitation may not always
             apply. For Jurisdictions that do not allow us to limit our
             liability: Notwithstanding any provision of these Terms, if your
@@ -286,10 +286,10 @@
         <div class="content">
           <p>
             After browsing our website you may be interested in purchasing some
-            of our picengine.io subscription plans. You will be required to
+            of our WooChita.io subscription plans. You will be required to
             submit payment information to do so. To process our payments we use
             Stripe. You must agree with their terms and conditions before paying
-            for any of our products. picengine.io offers various subscription
+            for any of our products. WooChita.io offers various subscription
             packages. This subscription will automatically renew at the end of
             the month, and you will be automatically billed at the end of your
             term for the month if your subscription is still active. You can,
@@ -315,14 +315,14 @@
             <b>Refund Policy</b>
             : We offer refunds to any unsatisfied customer up to seven (7) days
             after the purchase was made. If you would like your money back,
-            simply send us an email at info@picengine.io with a description of
+            simply send us an email at info@WooChita.io with a description of
             your problem and request for a refund.
           </div>
           <div class="refund">
             <b>Refund Policy</b>
             : We offer refunds to any unsatisfied customer up to seven (7) days
             after the purchase was made. If you would like your money back,
-            simply send us an email at info@picengine.io with a description of
+            simply send us an email at info@WooChita.io with a description of
             your problem and request for a refund.
           </div>
         </div>
@@ -333,18 +333,18 @@
         </div>
         <div class="content">
           <p>
-            picengine.io reserves the right in its sole discretion, and without
+            WooChita.io reserves the right in its sole discretion, and without
             any prior notice, to terminate your access to the Service for any or
             no reason, including your breach of these Terms of Service, the
             terms and conditions of any service for which you may have
             registered, or a violation of the rights of another user or the law.
-            You may unsubscribe from any further communication from picengine.io
+            You may unsubscribe from any further communication from WooChita.io
             at any time by delivering a written notice addressed to us.
-            picengine.io reserves the right with or without notice to you at any
+            WooChita.io reserves the right with or without notice to you at any
             time to change, modify or discontinue any service or a portion or
             attribute thereof, or the offering of any information, good,
-            content, product or service. picengine.io shall have no liability to
-            you or any third party should picengine.io modify or discontinue any
+            content, product or service. WooChita.io shall have no liability to
+            you or any third party should WooChita.io modify or discontinue any
             service or an aspect thereof.
           </p>
         </div>
@@ -356,8 +356,8 @@
         <div class="content">
           <p>
             Any claim or controversy arising out of or relating to the use of
-            PicEngine’ Service, to the goods or services provided by PicEngine,
-            or to any acts or omissions for which you may contend PicEngine is
+            WooChita’ Service, to the goods or services provided by WooChita,
+            or to any acts or omissions for which you may contend WooChita is
             liable, including but not limited to any claim or controversy
             (“Dispute”), shall be finally, and exclusively, settled by
             arbitration in Meerut, India, from which arbitration there shall be
@@ -380,13 +380,13 @@
             consolidation of arbitration under this Agreement with arbitration
             of disputes or claims of any non-party, regardless of the nature of
             the issues or disputes involved. THIS AGREEMENT PROVIDES THAT ALL
-            DISPUTES BETWEEN YOU AND picengine.io WILL BE RESOLVED BY BINDING
+            DISPUTES BETWEEN YOU AND WooChita.io WILL BE RESOLVED BY BINDING
             ARBITRATION. YOU THUS GIVE UP YOUR RIGHT TO GO TO COURT TO ASSERT OR
             DEFEND YOUR RIGHTS. YOU ALSO GIVE UP YOUR RIGHT TO PARTICIPATE IN OR
             BRING CLASS ACTIONS. YOU ACKNOWLEDGE AND AGREE THAT YOU AND
-            picengine.io ARE EACH WAIVING THE RIGHT TO PARTICIPATE AS A
+            WooChita.io ARE EACH WAIVING THE RIGHT TO PARTICIPATE AS A
             PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION OR
-            REPRESENTATIVE PROCEEDING. Further, unless both you and picengine.io
+            REPRESENTATIVE PROCEEDING. Further, unless both you and WooChita.io
             otherwise agree, the arbitrator may not consolidate more than one
             person’s claims, and may not otherwise preside over any form of any
             class or representative proceeding. YOUR RIGHTS WILL BE DETERMINED
@@ -424,7 +424,7 @@
             You agree that: (i) the Service shall be deemed solely based in
             India; and (ii) this Service shall be deemed a passive website and
             service that does not give rise to personal jurisdiction over
-            picengine.io, either specific or general, in jurisdictions other
+            WooChita.io, either specific or general, in jurisdictions other
             than India. These Terms of Service shall be governed by the internal
             substantive laws of India, without respect to its conflict of laws
             principles. The application of the United Nations Convention on
@@ -444,12 +444,12 @@
             of this these Terms of Service shall be deemed a further or
             continuing waiver of such term or any other term, and our failure to
             assert any right or provision under these Terms of Service shall not
-            constitute a waiver of such right or provision. YOU AND picengine.io
+            constitute a waiver of such right or provision. YOU AND WooChita.io
             AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THIS
             SERVICE MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION
             ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
             These Terms of Service may not be transferred or assigned by you,
-            but may be assigned by picengine.io without restriction. Any
+            but may be assigned by WooChita.io without restriction. Any
             attempted transfer or assignment in violation hereof shall be null
             and void. A printed version of these Terms of Service and of any
             notice given in electronic form shall be admissible in judicial or
@@ -457,7 +457,7 @@
             to the same extent and subject to the same conditions as other
             business documents and records originally generated and maintained
             in printed form. All rights not expressly granted herein are
-            reserved to picengine.io
+            reserved to WooChita.io
           </p>
         </div>
       </div>
@@ -483,7 +483,7 @@
 </template>
 
 <script>
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 
 export default {
   components: {

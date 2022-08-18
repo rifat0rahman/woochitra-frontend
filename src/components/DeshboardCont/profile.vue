@@ -5,8 +5,8 @@
       <div class="dash">
         <div class="profile-container">
           <div class="profile-info">
-            <div class="header" >
-              <h2>Profile Info</h2>
+            <div class="header text-center">
+              <strong class="fw-bolder fs-4">Profile Info</strong>
             </div>
             <div>
               <p class="owner">Owner : {{ user.first_name }}</p>

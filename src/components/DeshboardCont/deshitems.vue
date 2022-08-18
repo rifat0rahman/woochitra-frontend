@@ -1,25 +1,25 @@
 <template>
   <div>
     <div class="current">
-      <h2>Current Status</h2>
+      <p class="fw-bolder fs-4">Current Status</p>
     </div>
     <div class="col-container">
       <div class="col1">
         <img src="../../images/gears.png" alt="" /><br />
         <b>Your Plan</b>
-        <h4 style="color:black;font-size:30px;">{{ status.account_type }}</h4>
+        <h4>{{ status.account_type }}</h4>
       </div>
       <div class="col2">
         <img src="../../images/package.png" alt="" /><br />
         <b>Token Remains</b>
-        <h4 v-if="accounttype == null" style="color:black;font-size:30px;">{{ status.token_credits }} </h4>
-        <h1 class="display-1" style="color:black;font-size:30px;" v-else>∞</h1>
+        <h4 v-if="accounttype == null">{{ status.token_credits }} </h4>
+        <h1 class="display-1" v-else>∞</h1>
       </div>
       <div class="col3">
         <img src="../../images/high-quality.png" alt="" /><br />
-        <b v-show="status.status == 'licensed'">Type</b><br>
-        <b v-if="status.status == 'licensed'"> Licensed </b>
-        <b class="display-1" v-else>Not licensed </b>
+        <b>Type</b><br>
+        <h4 v-if="status.status == 'licensed'"> Licensed </h4>
+        <h4 class="fs-6" v-else>Not licensed </h4>
       </div>
     </div>
   </div>
@@ -51,6 +51,10 @@ export default {
 </script>
 
 <style scoped>
+.col-container h4{
+  color:black;
+  font-size:20px !important;
+}
 @media screen and (max-width: 700px) {
   .col1,
   .col2,
@@ -82,7 +86,6 @@ h1,h2,h3,h4{
 }
 .col3 img {
   width: 70px;
-  margin-bottom: 20px;
 }
 .col3 h4 {
   font-size: 25px;
@@ -98,10 +101,10 @@ h1,h2,h3,h4{
   margin-top: 15px;
 }
 .col3 b {
-  font-size: 20px;
+  font-size: 15px;
 }
 .col2 b {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .col2 img {
@@ -116,11 +119,10 @@ h1,h2,h3,h4{
   margin-top: 20px;
 }
 .col1 b {
-  font-size: 20px;
+  font-size: 15px;
 }
 .col1 img {
   width: 70px;
-  margin-bottom: 10px;
 }
 .col1,
 .col2,

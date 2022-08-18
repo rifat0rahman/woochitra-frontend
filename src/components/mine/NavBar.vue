@@ -3,7 +3,7 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <div class="container-fluid logo">
         <a href="/"
-          ><img src="../images/logo-png.png" alt="logo" class="navbar-brand"
+          ><img src="../../images/logo-png.png" alt="logo" class="navbar-brand"
         /></a>
         <button
           class="navbar-toggler"
@@ -42,7 +42,7 @@
                     >Pricing</router-link
                   >
                 </li>
-                <li class="nav-item mobile-nav">
+                <!-- <li class="nav-item mobile-nav">
                   <a
                     class="nav-link"
                     aria-current="page"
@@ -50,7 +50,7 @@
                     href="https://blog.picengine.io/"
                     >Blog</a
                   >
-                </li>
+                </li> -->
                 <li class="nav-item mobile-nav">
                   <router-link
                     class="nav-link"
@@ -79,7 +79,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+                  <router-link class="nav-link" aria-current="page" to="/"
+                    >Home</router-link
+                  >
             </li>
             <li class="nav-item">
               <router-link
@@ -89,7 +91,7 @@
                 >Pricing</router-link
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 class="nav-link"
                 aria-current="page"
@@ -97,7 +99,7 @@
                 href="https://blog.picengine.io/"
                 >Blog</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <router-link class="nav-link" aria-current="page" to="/contact-us"
                 >Contact</router-link
@@ -176,10 +178,10 @@ export default {
   padding-left: 41px !important;
 }
 .navbar-nav .nav-link:hover {
-  color: #ec850a !important;
+  color: rgb(191, 95, 255) !important;
   transition: 0.3s ease-in;
 }
 .router-link-exact-active {
-  color: #ec850a !important;
+  color: rgb(191, 95, 255) !important;
 }
 </style>

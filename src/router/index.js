@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import DetailContainer from '../components/DetailContainer.vue'
-import Deshboard from '../components/deshboard.vue'
+import DetailContainer from '../components/mine/DetailContainer.vue'
+import Deshboard from '../components/mine/deshboard.vue'
 import verify_account from '../components/auth/verify_account.vue'
 
 import settings from '../components/DeshboardCont/settings.vue'
@@ -16,8 +16,8 @@ import contact from '../components/pricing/contact-us.vue'
 
 import cancel from '../components/pricing/cancel.vue'
 
-import container from '../components/container.vue'
-import containerres from '../components/container-res.vue'
+import container from '../components/mine/container.vue'
+import containerres from '../components/mine/container-res.vue'
 
 
 import tos from '../components/Policy/tos.vue'

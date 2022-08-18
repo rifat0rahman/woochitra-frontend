@@ -27,9 +27,9 @@
 
 <script>
 // import containerVue from "./container.vue";
-import deshitemsVue from "./DeshboardCont/deshitems.vue";
-import profileVue from "./DeshboardCont/profile.vue";
-import sidebarVue from "./DeshboardCont/sidebar.vue";
+import deshitemsVue from "../DeshboardCont/deshitems.vue";
+import profileVue from "../DeshboardCont/profile.vue";
+import sidebarVue from "../DeshboardCont/sidebar.vue";
 
 export default {
   components: {
@@ -76,14 +76,14 @@ export default {
   margin-top: 100px;
 }
 .upgrade a {
-  border: 2px solid orange;
+  border: 2px solid rgb(191, 95, 255);;
   padding: 15px;
   border-radius: 25px;
   text-decoration: none;
   color: black;
   font-weight: 700;
   font-size: 22px;
-  box-shadow: 2px 2px 1px 2px orange;
+  box-shadow: 2px 2px 1px 2px rgb(191, 95, 255);;
 }
 .upgrade {
   text-align: center;

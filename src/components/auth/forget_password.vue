@@ -29,7 +29,7 @@
 
 <script>
 import axios from "axios";
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 import { base } from "../../main";
 export default {
   components: {
@@ -76,9 +76,9 @@ label {
 button {
   width: 100%;
   height: 45px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(218, 163, 255);
   border-radius: 25px;
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   margin: 7px;
   -webkit-box-shadow: 0 0 5px 1px rgb(228, 228, 228);
   -moz-box-shadow: 0 0 5px 1px rgb(255, 255, 255);
@@ -94,7 +94,7 @@ input:focus {
 .container input {
   width: 100%;
   height: 45px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(218, 163, 255);;
   border-radius: 25px;
   margin: 7px;
   -webkit-box-shadow: 0 0 5px 1px rgb(228, 228, 228);

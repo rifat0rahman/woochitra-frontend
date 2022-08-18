@@ -22,7 +22,9 @@
                 placeholder="put your license"
                 required
               /><br />
-              <input type="submit" value="Activate License" />
+              <div class="text-center">
+                  <button class="button ms-3">Activate License</button>
+              </div>
             </div>
           </form>
         </div>
@@ -45,7 +47,9 @@
                 placeholder="put your new name"
                 required
               /><br />
-              <input type="submit" value="Change Name" />
+              <div class="text-center">
+                  <button class="button ms-3">Change Name</button>
+              </div>
             </div>
           </form>
         </div>
@@ -69,7 +73,9 @@
                 v-model="new_email"
                 required
               /><br />
-              <input type="submit" value="Change Email" />
+              <div class="text-center">
+                  <button class="button ms-3">Change Email</button>
+              </div>
             </div>
           </form>
         </div>
@@ -92,7 +98,9 @@
                 placeholder="123456"
                 required
               /><br />
-              <input type="submit" value="Verify Email" />
+              <div class="text-center">
+                  <button class="button ms-3">Verify Email</button>
+              </div>
             </div>
           </form>
         </div>
@@ -132,7 +140,9 @@
                 v-model="pass.ag_new_pass"
                 required
               /><br />
-              <input type="submit" value="Change password" />
+              <div class="text-center">
+                  <button class="button ms-3">Change Password</button>
+              </div>
             </div>
           </form>
         </div>
@@ -324,11 +334,26 @@ label {
 input:focus {
   outline: 0;
 }
+
+.button {
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
+  color: white;
+  padding:8px;
+  font-size: 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size:18px;
+  border: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100% !important;
+}
+
 .info-fileds input[value="Change password"] {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
 }
 .info-fileds input[type="submit"] {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   color: white;
   font-size:18px;
 }

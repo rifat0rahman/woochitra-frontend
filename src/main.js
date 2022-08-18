@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
-// import VueAwesomeSwiper from 'vue-awesome-swiper'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import VueRouter from 'vue-router'
 import BootstrapVue from 'bootstrap-vue'
 import VueSilentbox from 'vue-silentbox'
@@ -13,7 +13,7 @@ import VueMeta from 'vue-meta'
 Vue.use(VueSilentbox)
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
-// Vue.use(VueAwesomeSwiper)
+Vue.use(VueAwesomeSwiper)
 Vue.use(VueMeta, {
     refreshOnceOnNavigation: true
 })
@@ -22,7 +22,7 @@ Vue.use(VueMeta, {
 
 import 'bootstrap/dist/css/bootstrap.css'
 import '../src/assets/css/fontawesome-all.min.css'
-// import 'swiper/dist/css/swiper.css'
+import 'swiper/dist/css/swiper.css'
 import 'animate.css/animate.min.css'
 import '../src/assets/scss/style.scss'
 import 'slick-carousel/slick/slick.css'

@@ -52,7 +52,7 @@
 <script>
 import axios from "axios";
 import { base } from "../../main";
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 export default {
   data() {
     return {
@@ -114,7 +114,7 @@ export default {
 }
 
 .success a {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   padding: 15px;
   border: 2px solid rgb(255, 255, 255);
   text-decoration: none;
@@ -155,7 +155,7 @@ label {
   padding-bottom: 30px;
 }
 button {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   font-size: 20px;
   margin-top: 20px;
   color: white;

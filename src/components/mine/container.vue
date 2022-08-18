@@ -12,7 +12,7 @@
 
 <script>
 import compressVue from './compress.vue';
-import Sidebar from './DeshboardCont/sidebar.vue';
+import Sidebar from '../DeshboardCont/sidebar.vue';
 import formatVue from './format.vue';
 
 export default {

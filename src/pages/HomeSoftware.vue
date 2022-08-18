@@ -22,7 +22,7 @@
         </div>
 
         <div class="feature-icon-list-area section-space--pb_120 section-space--mt_40" id="about">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="section-title-wrapper text-center section-space--mb_100">
                     <h2 class="section-title font-weight--light mb-30 wow move-up">Embed your videos directly into the product gallery and watch as they get more clicks and conversions</h2>
                     <div class="video-button-container video-popup">
@@ -34,7 +34,7 @@
                         </silentbox-single>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- feature list component -->
             <FeatureList />
         </div>
@@ -128,19 +128,10 @@
                         S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"/>
             </template>
         </CurveShape>
+        <div style="margin-bottom:200px"></div>
 
         <!-- bannar area -->
-        <div class="software-contact__images section-space--pt_120 section-space--pb_60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="software-contact-images__midea text-center wow move-up">
-                            <img src="../assets/img/features/aeroland-software-image-06.png" alt="images" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
         <!-- newsletter section -->
         <!-- <Newsletter />  -->

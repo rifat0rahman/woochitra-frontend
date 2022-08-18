@@ -9,7 +9,7 @@
 // import PageDetailVue from './PageDetail.vue'
 // import PageExVue from './PageEx.vue'
 import NavBarVue from './NavBar.vue'
-import HomeSoftwareVue from '../pages/HomeSoftware.vue'
+import HomeSoftwareVue from '../../pages/HomeSoftware.vue'
 export default {
     components:{
         // PageDetailVue,

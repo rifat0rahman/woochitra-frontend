@@ -2,7 +2,7 @@
   <div class="footer">
       <div class="footer-container">
           <div class="cols">
-              <img src="../images/logo-png.png" alt="">
+              <img src="../../images/logo-png.png" alt="">
           </div>
           <div class="cols">
               <h1>Legal</h1>
@@ -54,7 +54,7 @@ export default {
     font-size: 23px;
 }
 .cols a:hover{
-    color: rgb(228, 137, 0);
+    color: rgb(191, 95, 255);
     transition: 0.2s ease;
 }
 .cols a{

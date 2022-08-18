@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Sidebar from './DeshboardCont/sidebar.vue';
+import Sidebar from '../DeshboardCont/sidebar.vue';
 import formatVue from './format.vue';
 import resizeVue from './resize.vue';
 

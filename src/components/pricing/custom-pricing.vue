@@ -44,7 +44,7 @@
 <script>
 import axios from "axios";
 import { base } from "../../main";
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 export default {
   data() {
     return {

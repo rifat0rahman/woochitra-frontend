@@ -8,8 +8,8 @@
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Turn products into stories.</h2>
                                 <h6 class="hero-content-subtitle">Easiest way to add videos to your WooCommerce product pages.</h6>
-                                <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
+                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">
@@ -22,8 +22,8 @@
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Boost Your Sales with Videos</h2>
                                 <h6 class="hero-content-subtitle">According to 80% of video marketers, video directly increases sales.</h6>
-                                <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
+                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
                                 </router-link>
                             </div>
                             <div class="hero-thumb">
@@ -36,8 +36,8 @@
                             <div class="hero-content">
                                 <h2 class="h1 hero-content-title">Your business deserves better software</h2>
                                 <h6 class="hero-content-subtitle">No coding skills required to create unique sites.</h6>
-                                <router-link :to="{ path: 'branding' }" class="btn btn--green">
-                                    <span class="btn-icon  ml-0 mr-2"><i class="fa fa-arrow-alt-to-bottom"></i></span> Get AeroLand
+                                <router-link :to="{ path: 'dashboard' }" class="btn btn--green">
+                                    <span class="btn-icon  ml-0 mr-2"></span> Go Dashboard
                                 </router-link>
                             </div>
                             <div class="hero-thumb pr-100">

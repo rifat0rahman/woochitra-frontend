@@ -13,16 +13,16 @@
         <div class="content">
           <p>
             This privacy policy is designed to inform users of our proprietary
-            products available at https://picengine.io, including all sub-sites
+            products available at https://woochitra.com, including all sub-sites
             and micro-sites controlled by us, and any related smartphone or
-            mobile application (collectively, the “Service”) about PicEngine.
-            (“PicEngine”, “we” or “us”) gathers and uses personal information
-            submitted to PicEngine through the Service. PicEngine will take
+            mobile application (collectively, the “Service”) about WooChitra.
+            (“WooChitra”, “we” or “us”) gathers and uses personal information
+            submitted to WooChitra through the Service. WooChitra will take
             reasonable steps to protect user privacy consistent with the
             guidelines set forth in this policy and with all applicable Indian
             and The US laws. In this policy, “user” or “you” means any person
             viewing the Service or submitting any personal information to
-            PicEngine in connection with using the Service. By accessing our
+            WooChitra in connection with using the Service. By accessing our
             website, using the service, integrating with our systems, or by
             otherwise providing us with your personally identifying information,
             you are accepting the practices and policies described in the
@@ -30,9 +30,9 @@
             any changes will be posted on this page, and if the changes are
             significant, we will provide a more prominent notice. If you have
             questions or concerns regarding the Privacy Policy, you should first
-            contact us at info@picengine.io. Our Privacy Policy does not apply
+            contact us at help@woochitra.com. Our Privacy Policy does not apply
             to services offered by other companies or individuals, including
-            third party services used by PicEngine. For these third party
+            third party services used by WooChitra. For these third party
             services, we encourage you to familiarize yourself with the
             applicable third party privacy policies.
           </p>
@@ -182,11 +182,11 @@
         <div class="content">
           <p>
             You can update your Personal Information by using the profile
-            editing tools on the Service. PicEngine will respond to any
+            editing tools on the Service. WooChitra will respond to any
             reasonable request by a user to review or amend his or her Personal
-            Information held in our mailing list or database. PicEngine reserves
+            Information held in our mailing list or database. WooChitra reserves
             the right to verify your identity in order to provide such access.
-            Please contact us by sending an email to info@PicEngine.io.
+            Please contact us by sending an email to info@WooChitra.io.
           </p>
         </div>
       </div>
@@ -200,7 +200,7 @@
 </template>
 
 <script>
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 
 export default {
   components: {

@@ -4,9 +4,6 @@
     <div>
       <div class="top">
         <b style="color:black"> A pricing plan that grows with your business </b>
-        <h4 style="color:black">
-          Each plan is customized to fit the size and needs of your business.
-        </h4>
       </div>
       <div class="price-container">
         <div class="cols">
@@ -16,11 +13,9 @@
             <b>$6.99/m</b>
           </div>
           <div class="numprocess">
-            <span>Image Optimisation</span><br />
-            <b>1500</b><br />
+            <span><strong>WooCommerce Store</strong></span><br />
+            <b>01</b><br />
             <p></p>
-            <span>Image Metadata</span><br />
-            <b>250</b><br />
             <p></p>
           </div>
           <div class="button">
@@ -35,11 +30,9 @@
             <b>$16.99/m</b>
           </div>
           <div class="numprocess">
-            <span>Image Optimisation</span><br />
-            <b>5000</b><br />
+            <span><strong>WooCommerce Store</strong></span><br />
+            <b>05</b><br />
             <p></p>
-            <span>Image Metadata</span><br />
-            <b>1000</b><br />
             <p></p>
           </div>
           <div class="button">
@@ -54,11 +47,9 @@
             <b>$46.99/m</b>
           </div>
           <div class="numprocess">
-            <span>Image Optimisation</span><br />
-            <b>15000</b><br />
+            <span><strong>WooCommerce Store</strong></span><br />
+            <b>25</b><br />
             <p></p>
-            <span>Image Metadata</span><br />
-            <b>3000</b><br />
             <p></p>
           </div>
           <div class="button">
@@ -72,15 +63,13 @@
             <b>$96.99/m</b>
           </div>
           <div class="numprocess">
-            <span>Image Optimisation</span><br />
-            <b>custom</b><br />
+            <span><strong>WooCommerce Store</strong></span><br />
+            <b>100</b><br />
             <p></p>
-            <span>Image Metadata</span><br />
-            <b>custom</b><br />
             <p></p>
           </div>
           <div class="button">
-            <a :href="base + 'dR69Bz2L97KO22s4gm'" v-show="button_icon">Custom Plan</a>
+            <a :href="base + 'dR69Bz2L97KO22s4gm'" v-show="button_icon">Select Plan</a>
           </div>
         </div>
       </div>
@@ -92,7 +81,7 @@
 </template>
 
 <script>
-import NavBarVue from "../NavBar.vue";
+import NavBarVue from "../mine/NavBar.vue";
 
 export default {
   components: {
@@ -112,7 +101,7 @@ export default {
       this.button_icon = false;
     }
     else{
-      this.error = 'I want to test the free account first'
+      this.error = 'Have a license'
     }
   },
 };
@@ -170,13 +159,13 @@ export default {
 
 
 .skip a{
-  border: 1px solid rgb(255, 145, 0);
+  border: 1px solid rgb(191, 95, 255);
   padding: 15px;
   text-decoration: none;
   color: rgb(255, 255, 255);
   border-radius: 25px;
   font-size:18px;
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
 }
 .skip{
   text-align: center;
@@ -200,7 +189,7 @@ export default {
   margin-bottom: 50px;
 }
 .header-text {
-  color: #ffad33;
+  color: rgb(191, 95, 255);
   font-size: 25px !important;
   font-family: arial;
 }
@@ -213,7 +202,7 @@ export default {
   margin-bottom: 20px;
 }
 .button a {
-  background: linear-gradient(rgb(255, 189, 67), rgb(255, 145, 0));
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
   color: white;
   padding:13px;
   font-size: 18px;
