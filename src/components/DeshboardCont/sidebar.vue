@@ -24,11 +24,11 @@
             </a>
           </li>
           <li>
-            <a href="/image-optimizations" class="nav-link text-white"> 
+            <a href="/create-token" class="nav-link text-white"> 
             <i class="fas fa-compress-arrows-alt"></i><span class="icon-t">Create</span> </a>
           </li>
           <li>
-            <a href="/image-resizing" class="nav-link text-white"> 
+            <a href="/tokens" class="nav-link text-white"> 
             <i class="fas fa-crop"></i><span class="icon-t">Tokens</span> </a>
           </li>
           <li>

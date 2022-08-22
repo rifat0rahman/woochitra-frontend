@@ -103,14 +103,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
                         <div class="faq-wrapper">
-                            <!-- accordion component -->
-                            <Accordion />
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="faq-wrapper soft-accordion-two">
                             <!-- accordion component -->
                             <Accordion />
                         </div>

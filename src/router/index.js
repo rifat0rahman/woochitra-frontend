@@ -89,7 +89,7 @@ const routes = [
         component:customPricing,
       },
       {
-        path:'/image-optimizations',
+        path:'/create-token',
         component:container,
       },
       {
@@ -97,7 +97,7 @@ const routes = [
         component:verify_account,
       },
       {
-        path:'/picengine-tos',
+        path:'/terms-of-service',
         component:tos,
       },
       {
@@ -117,7 +117,7 @@ const routes = [
         component:forget_password,
       },
       {
-        path:'/image-resizing',
+        path:'/tokens',
         component:containerres,
       },
   

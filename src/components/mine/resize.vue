@@ -74,6 +74,7 @@ export default {
       }
       axios.post(`${base}token/get/`,context).then(data=>{
         this.tokens = data.data
+        console.log(this.tokens)
         this.fake_tokens = this.tokens
       })
     },
@@ -83,7 +84,6 @@ export default {
           if(token.website){
             return token.website.indexOf(this.searchQuery) > -1
           }
-          // return token.license.indexOf(this.searchQuery) > -1
         })        
       }
       else {

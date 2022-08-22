@@ -20,7 +20,7 @@
 
         <!-- email changer -->
         <div class="text-center">
-           <strong>Check all your token <a style="color:rgb(139 55 248)" href="/image-resizing"><i>here</i></a> </strong>
+           <strong>Check all your token <a style="color:rgb(139 55 248)" href="/tokens"><i>here</i></a> </strong>
         </div>
     </div>
   </div>

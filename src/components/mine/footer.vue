@@ -6,14 +6,14 @@
           </div>
           <div class="cols">
               <h1>Legal</h1>
-              <a href="/picengine-tos">Terms of service</a><br>
+              <a href="/terms-of-service">Terms of service</a><br>
               <a href="/privacy-policy">Privacy policy</a><br>
           </div>
           <div class="cols">
               <h1>Community</h1>
-              <a href="">Facebook </a><br>
+              <a href="https://www.facebook.com/sataksupport" target="_blank">Facebook </a><br>
               <!-- <a href="">Twitter</a><br> -->
-              <a href="">Linkedin</a>
+              <a href="https://www.linkedin.com/company/3274532/admin/" target="_blank">Linkedin</a>
           </div>
           <div class="cols">
               <h1>Product </h1>
