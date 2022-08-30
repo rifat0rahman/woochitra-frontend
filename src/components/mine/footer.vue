@@ -17,13 +17,13 @@
           </div>
           <div class="cols">
               <h1>Product </h1>
-              <a href="/pricing-plan">Pricing</a><br>
+              <a href="https://app.woochitra.com/" target="_blank">Plugin Download</a><br>
               <a href="/contact-us">Help center</a>
           </div>
       </div>
       <div class="footer-footer">
           <hr>
-          <b>Copyright © 2021 Satak Support All rights reserved.</b>
+          <b>Copyright © 2022 Satak Support All rights reserved.</b>
       </div>
   </div>
 </template>

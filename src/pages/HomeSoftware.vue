@@ -177,11 +177,17 @@
 		},
 
         metaInfo: {
-            title: 'WooChitra - Add videos to WooCommerce products',
+            title: 'WooChitra - Add videos for WooCommerce and start selling more!',
             htmlAttrs: {
                 lang: 'en',
                 amp: true
-            }
+            },
+            meta:[
+                {
+                    'name':'description',
+                    'content':'Woochitra is the easiest way to add videos to your woocommerce gallery without wasting time or money!'
+                }
+            ]
         }
 	};
 </script>

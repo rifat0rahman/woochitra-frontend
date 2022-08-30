@@ -50,10 +50,10 @@
             the name of the individual creating the account, business email
             address, business phone number, company name, and payment
             information such as credit card number (the “Personal Information”).
-            In addition, if you contact PicEngine and disclose additional
+            In addition, if you contact WooChitra and disclose additional
             personal information, we may store that Personal Information. User
             Data: When you use the service as well any related software and
-            application, you transmit to PicEngine certain user-specific data
+            application, you transmit to WooChitra certain user-specific data
             (“User Data”), including to but not limited to your use of the
             Service, and additional information. Web Tracking Information: We,
             and third party service providers that we engage to provide services
@@ -62,7 +62,7 @@
             the Service efficiently and to collect data related to usage of the
             Service. Such collected data (“Web Tracking Information”) may
             include the address of the websites you visited before and after you
-            visited the PicEngine website, the type of browser you are using,
+            visited the WooChitra website, the type of browser you are using,
             your Internet Protocol (IP) address, what pages in the Service you
             visit and what links you clicked on, and whether you opened email
             communications we send to you. In order to collect Web Tracking
@@ -90,12 +90,12 @@
           <p>
             Personal Information: We will use and store Personal Information for
             the purpose of delivering the Service (including to establish or
-            renew your PicEngine account), and to analyze and enhance the
+            renew your WooChitra account), and to analyze and enhance the
             operation of the Service. We may also use Personal Information for
             the internal operational and administrative purposes of the Service.
             We may enter Personal Information into our contact management
             database, and may use such a database to send you marketing
-            materials and to contact you regarding your interest in PicEngine
+            materials and to contact you regarding your interest in WooChitra
             products and services. User Data: We will use the User Data to
             provide the Service. We may aggregate UserData across all or a
             subset of users to create statistical information relating to the
@@ -113,10 +113,10 @@
             us to determine which features users like best to help us improve
             our Service, to personalize your user experience, and to measure
             overall effectiveness. Legal Exception: Notwithstanding the above,
-            PicEngine may use Personal Information and User Data to the extent
-            required by law or legal process, or if in PicEngine’s reasonable
+            WooChitra may use Personal Information and User Data to the extent
+            required by law or legal process, or if in WooChitra’s reasonable
             discretion use is necessary to investigate fraud or any threat to
-            the safety of any individual, to protect PicEngine’s legal rights or
+            the safety of any individual, to protect WooChitra’s legal rights or
             to protect the rights of third parties.
           </p>
         </div>
@@ -129,14 +129,14 @@
         </div>
         <div class="content">
           <p>
-            PicEngine’s Disclosure of Personal Information: PicEngine will not
+            WooChitra’s Disclosure of Personal Information: WooChitra will not
             disclose Personal Information to any third party except to our
             Contractors who are bound by written obligations of confidentiality,
             or as described under “Permitted Disclosures” below. User Data: We
             only disclose User Data to any of the designated administrators of
             the business entity that you establish via your account. Except as
             described above, we disclose User Data only to you, the user who
-            submitted the User Data to PicEngine to our Contractors who are
+            submitted the User Data to WooChitra to our Contractors who are
             bound by obligations of confidentiality, and as described under
             “Permitted Disclosures” below. Web Tracking Information: We disclose
             Web Tracking Information to Contractors, in order to analyze the
@@ -146,15 +146,15 @@
             identifies any particular user or person to any third parties, such
             as potential customers, business partners, advertisers, and funding
             sources, in order to describe our business and operations. Permitted
-            Disclosures: Notwithstanding the foregoing, PicEngine reserves the
-            right to disclose any information PicEngine collects in connection
+            Disclosures: Notwithstanding the foregoing, WooChitra reserves the
+            right to disclose any information WooChitra collects in connection
             with the Service, without further notice to you (a) to any successor
-            to PicEngine’s business as a result of any merger, acquisition or
+            to WooChitra’s business as a result of any merger, acquisition or
             similar transaction; and (b) to any law enforcement or regulatory
-            authority to the extent required by law or if, in PicEngine’s
+            authority to the extent required by law or if, in WooChitra’s
             reasonable discretion, disclosure is necessary to investigate fraud
             or any threat to the safety of any individual, to protect
-            PicEngine’s legal rights or to protect the rights of third parties
+            WooChitra’s legal rights or to protect the rights of third parties
           </p>
         </div>
       </div>
@@ -168,8 +168,8 @@
         <div class="content">
           <p>
             If you would like your Personal Information removed from our mailing
-            list or database, please contact us at info@PicEngine.io. In the
-            event of any such removal, PicEngine may retain copies of
+            list or database, please contact us at help@woochitra.com . In the
+            event of any such removal, WooChitra may retain copies of
             information for its archives.
           </p>
         </div>
@@ -186,7 +186,7 @@
             reasonable request by a user to review or amend his or her Personal
             Information held in our mailing list or database. WooChitra reserves
             the right to verify your identity in order to provide such access.
-            Please contact us by sending an email to info@WooChitra.io.
+            Please contact us by sending an email to help@woochitra.com .
           </p>
         </div>
       </div>

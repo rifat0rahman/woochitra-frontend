@@ -9,7 +9,8 @@
             <b-collapse id="accordion-1" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text>
-                        WooChitra requires at least WordPress 4 and a modern web browser. Please also make sure that your server respects these WordPress recommendations.
+                        WooChitra requires at least WordPress 4 and a modern web browser. Please also make sure that your server respects 
+                        these <a style="color:#9c7af2" href="https://wordpress.org/about/requirements/">WordPress recommendations</a>.
 
                     </b-card-text>
                 </b-card-body>
