@@ -36,6 +36,12 @@
             <i class="fas fa-cogs"></i><span class="icon-t">Settings</span>
             </router-link>
           </li>
+            <li>
+            <a href="https://app.woochitra.com/download-woochitra" class="nav-link text-white" target="_blank">
+            <i class="fas fa-download"></i><span class="icon-t">Download</span>
+            </a>
+            
+          </li>
           <li>
             <a href="#"  @click="logout" class="nav-link text-white">
             <i class="fas fa-sign-out-alt"></i><span class="icon-t">LogOut</span>

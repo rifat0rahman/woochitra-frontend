@@ -14,8 +14,8 @@
                                 <img :src="feature.icon" class="img-fluid" alt="">
                             </div>
                             <div class="single-feature-icon__content">
-                                <h6 class="title">{{ feature.title }}</h6>
-                                <div class="text">{{ feature.desc }}</div>
+                                <h6 class="title">- {{ feature.title }}</h6>
+                                <h6 class="title">- {{ feature.desc }}</h6>
                             </div>
                         </div>
                     </div>
@@ -33,19 +33,19 @@
                 features: [
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-01-1.png'), 
-                        title: 'Product description is not always enough', 
-                        desc: 'Embed video directly into the product gallery for maximum impact.'
+                        title: 'Add custom thumbnails to the videos', 
+                        desc: 'Add multiple videos to the product gallery.'
                     },
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-02-1.png'), 
-                        title: 'Add videos wherever you like', 
-                        desc: 'WooChitra will play YouTube, Vimeo, dailymotion, and even self-hosted MP4 videos.'
+                        title: 'Add videos to the description area.', 
+                        desc: 'Theme responsive video size.'
                     },
                     {
                         icon: require('../assets/img/icons/aeroland-branding-box-image-03-1.png'), 
-                        title: 'Responsive as per the layout', 
-                        desc: 'No matter the theme or device, WooChitra will always serve the best aspect ratios.'
-                    },
+                        title: 'Choose aspect ratio manually.',
+                        desc: 'Responsive to all device sizes.'
+                    }
                 ]
             }
         }

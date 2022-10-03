@@ -40,6 +40,15 @@
             <div>
               <strong>Expired</strong>: <span class="fs-6 ms-2"><i>{{token.expired}}</i></span>
             </div>
+            <div>
+              <form @submit.prevent="delete_token(token.license)">
+                <div class="w-25">
+                  <button class="delete">
+                      Delete
+                  </button>
+                </div>
+            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -58,7 +67,7 @@ export default {
       searchQuery: null,
       tokens:[],
       fake_tokens:[],
-      email:null
+      email:null,
     };
   },
 
@@ -68,6 +77,16 @@ export default {
     this.get_token()
   },
   methods: {
+      delete_token(t){
+        const context = {
+          "email":this.email,
+          "token":t
+        }
+        axios.post(`${base}token/delete/`,context).then(data=>{
+          console.log(data)
+          this.get_token()
+        })
+    },
     get_token(){
       const context = {
         "email":this.email
@@ -113,6 +132,17 @@ export default {
 .accordion-item{
   margin-bottom: 10px;
   border: 1px solid rgb(214, 197, 255);
+}
+.delete{
+  background: linear-gradient(rgb(205, 130, 255), rgb(139, 55, 248));
+  color: white;
+  border-radius:5px;
+  text-decoration: none;
+  font-size:12px;
+  border: none;
+  font-weight: bold;
+  width: 50% !important;
+  height:25px;
 }
 .info-fileds input {
   width: 50% !important;

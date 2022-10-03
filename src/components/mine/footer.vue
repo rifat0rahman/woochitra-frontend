@@ -17,7 +17,7 @@
           </div>
           <div class="cols">
               <h1>Product </h1>
-              <a href="https://app.woochitra.com/" target="_blank">Plugin Download</a><br>
+              <a href="https://app.woochitra.com/download-woochitra" target="_blank">Plugin Download</a><br>
               <a href="/contact-us">Help center</a>
           </div>
       </div>
