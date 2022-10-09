@@ -1,7 +1,7 @@
 <template>
   <div class="top">
     <NavBarVue />
-      <HomeSoftwareVue/>
+      <Home/>
   </div>
 </template>
 
@@ -9,16 +9,15 @@
 // import PageDetailVue from './PageDetail.vue'
 // import PageExVue from './PageEx.vue'
 import NavBarVue from './NavBar.vue'
-import HomeSoftwareVue from '../../pages/HomeSoftware.vue'
+import Home from '../AAhome.vue'
+// import HomeSoftwareVue from '../../pages/HomeSoftware.vue'
 export default {
     components:{
         // PageDetailVue,
         // PageExVue,
         NavBarVue,
-        HomeSoftwareVue
+        Home
+        // HomeSoftwareVue
     }
 }
 </script>
-
-<style scoped>
-</style>

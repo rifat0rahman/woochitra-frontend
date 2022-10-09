@@ -76,14 +76,14 @@ export default {
   margin-top: 100px;
 }
 .upgrade a {
-  border: 2px solid rgb(191, 95, 255);;
+  border: 2px solid #6063fa;
   padding: 15px;
   border-radius: 25px;
   text-decoration: none;
   color: black;
   font-weight: 700;
   font-size: 22px;
-  box-shadow: 2px 2px 1px 2px rgb(191, 95, 255);;
+  box-shadow: 2px 2px 1px 2px #5F61E7;
 }
 .upgrade {
   text-align: center;

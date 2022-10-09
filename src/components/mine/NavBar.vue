@@ -141,11 +141,11 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 1100px) {
+ @media screen and (min-width: 1600px) {
   .container-fluid {
-    width: 1100px !important;
+    width: 1600px !important;
   }
-}
+} 
 @media screen and (max-width: 460px) {
   .logo img {
     margin-left: 20px !important;
@@ -160,7 +160,7 @@ export default {
   height: 100px;
 }
 .bg-light {
-  background-color: rgb(255, 255, 255) !important;
+  background-color: #ffffff !important;
 }
 .logo img {
   width: 120px;

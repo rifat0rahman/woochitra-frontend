@@ -12,7 +12,8 @@
       <div class="col2">
         <img src="../../images/package.png" alt="" /><br />
         <b>Token Remains</b>
-        <h4 v-if="accounttype == null">{{ status.token_credits }} </h4>
+     
+        <h4 v-if="status.account_type != 'unlimited' ">{{ status.token_credits }} </h4>
         <h1 class="display-1" v-else>∞</h1>
       </div>
       <div class="col3">

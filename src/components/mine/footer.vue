@@ -8,12 +8,15 @@
               <h1>Legal</h1>
               <a href="/terms-of-service">Terms of service</a><br>
               <a href="/privacy-policy">Privacy policy</a><br>
+              <a href="https://app.woochitra.com/about-us/" target="_blank">About Us</a><br>
+
           </div>
           <div class="cols">
               <h1>Community</h1>
               <a href="https://www.facebook.com/sataksupport" target="_blank">Facebook </a><br>
               <!-- <a href="">Twitter</a><br> -->
-              <a href="https://www.linkedin.com/company/3274532/admin/" target="_blank">Linkedin</a>
+              <a href="https://www.linkedin.com/company/3274532/admin/" target="_blank">Linkedin</a><br>
+              <a href="https://app.woochitra.com/how-to-activate-woochitra-lifetime-deal-account/" target="_blank">Resources</a>
           </div>
           <div class="cols">
               <h1>Product </h1>
@@ -66,7 +69,7 @@ export default {
     font-weight: 500 !important;
 }
 .cols img{
-    width:180px;
+    width:140px;
 }
 .cols{
     flex:20%;
