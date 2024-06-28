@@ -74,11 +74,12 @@ export default {
         name:null,
       },
       error: null,
-      spinner: true,
+      spinner: true
     };
   },
   mounted() {
     const token = this.$cookies.get("token");
+    // appsumo-code
     if (token) {
       location.replace("/dashboard");
     }

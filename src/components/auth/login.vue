@@ -50,6 +50,7 @@ export default {
       userInfo: {
         email: null,
         password: null,
+        sumo_code:this.$cookies.get('sumo_code')
       },
       error:null,
     };
@@ -66,6 +67,7 @@ export default {
         .post(`${base}login`, this.userInfo)
         .then((data) => {
           this.$cookies.set('token',data.data.status);
+          this.$cookies.set('sumo_code','')
           location.replace('/dashboard')
         })
         .catch((err) => {

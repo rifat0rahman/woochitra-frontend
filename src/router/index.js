@@ -27,7 +27,7 @@ import privacypolicy from '../components/Policy/pp.vue'
 import forget_email from '../components/auth/forget_email.vue'
 import forget_verify from '../components/auth/forget_verify.vue'
 import forget_password from '../components/auth/forget_password.vue'
-
+import redirects from '../components/auth/redirects.vue'
 
 
 Vue.use(VueRouter)
@@ -115,6 +115,10 @@ const routes = [
       {
         path:'/forget-password',
         component:forget_password,
+      },
+      {
+        path:'/api/redirect',
+        component:redirects,
       },
       {
         path:'/tokens',

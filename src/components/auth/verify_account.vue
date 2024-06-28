@@ -37,12 +37,15 @@ export default {
         password: this.$cookies.get("initial_password"),
         name :this.$cookies.get("initial_name"),
         code: this.code,
+        sumo_code:this.$cookies.get('sumo_code')
       };
-      console.log(context)
+
       axios.post(`${base}create_account`, context).then((data) => {
         this.$cookies.set("token", data.data.user);
         this.$cookies.set('initial_password','')
         this.$cookies.set('initial_email','')
+        this.$cookies.set('sumo_code','')
+
         location.replace('/setting')
       })
       .catch(err=>{
